@@ -20,4 +20,4 @@ jobs:
         vs-prerelease: true
 
     - name: Build
-      run: msbuild /m /p:Configuration=Debug antinet.sln
+      run: msbuild antinet.sln
